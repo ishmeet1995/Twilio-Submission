@@ -16,7 +16,8 @@ class News:
                f"2. {headlines[1].split('|')[0]} - {headlines[1].split('|')[1]} \n" \
                f"3. {headlines[2].split('|')[0]} - {headlines[2].split('|')[1]} \n" \
                f"4. {headlines[3].split('|')[0]} - {headlines[3].split('|')[1]} \n" \
-               f"5. {headlines[4].split('|')[0]} - {headlines[4].split('|')[1]} \n"
+               f"5. {headlines[4].split('|')[0]} - {headlines[4].split('|')[1]} \n" \
+               f"via Newsapi.com"
 
 
     def all_headlines(self, query='generic', page_size=5,
